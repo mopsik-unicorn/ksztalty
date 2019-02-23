@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+<meta charset="UTF-8">
+<script src="kwadrat.js"></script>
+<script src="prostokat.js"></script>
+</head>
+<body>
+
+<h3>Kwadrat</h3>
+<input type="text" name="bok" id="bok">
+<button onclick="alert(poleKwadrat(document.getElementById('bok').value))">Pole</button>
+<button onclick="alert(obwodKwadrat(document.getElementById('bok').value))">Obwod</button>
+
+<h3>Prostokąt</h3>
+<input type="text" name="dlugosc" id="dlugosc">
+<input type="text" name="szerokosc" id="szerokosc">
+<button onclick="alert(poleProstokat(document.getElementById('dlugosc').value, document.getElementById('szerokosc').value))">Pole</button>
+<button onclick="alert(obwodProstokat(document.getElementById('dlugosc').value, document.getElementById('szerokosc').value))">Obwod</button>
+
+</body>
+</html>
